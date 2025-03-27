@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy app files
 COPY . .
 
+RUN pip install flask
 # Run unit tests
 RUN python test_app.py
 
