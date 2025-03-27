@@ -8,6 +8,6 @@ WORKDIR /app
 COPY app.py ./
 
 # Run unit tests
-RUN python -m unittest test_app.py
+RUN python test_app.py
 
 CMD ["python", "app.py"]
