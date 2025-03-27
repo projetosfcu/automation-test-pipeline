@@ -5,10 +5,7 @@ FROM python:3.9-alpine
 WORKDIR /app
 
 # Copy app files
-COPY app.py test_app.py requirements.txt ./
-
-# Install dependencies
-RUN pip install -r requirements.txt
+COPY app.py ./
 
 # Run unit tests
 RUN python -m unittest test_app.py
