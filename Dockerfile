@@ -5,7 +5,7 @@ FROM python:3.9-alpine
 WORKDIR /app
 
 # Copy app files
-COPY app.py ./
+COPY . .
 
 # Run unit tests
 RUN python test_app.py
