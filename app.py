@@ -7,7 +7,7 @@ def hello():
     return """
     <html>
         <head>
-            <title>Hello, World!</title>
+            <title>Hello, World</title>
             <style>
                 body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
                 h1 { color: #4CAF50; }
